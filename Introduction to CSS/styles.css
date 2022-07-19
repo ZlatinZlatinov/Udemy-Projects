@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(189, 238, 205);  
+} 
+hr {
+    /* background-color: black;  */
+    /* border-style: none;  */
+    border-top-style: dotted;
+    width: 30%; 
+    /* border-color: grey;  */
+    border-width: 5px;
+} 
+h1{
+    font-family: serif;
+} 
+h2 {
+    color: rgba(136, 134, 15, 0.568); 
+    font-family: Tahoma; 
+    float: inline-start;
+} 
+h3 {
+    float: inline-start;
+}
