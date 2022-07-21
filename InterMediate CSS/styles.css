@@ -1,5 +1,6 @@
 body {
-    margin: 0px;
+    margin: 0px; 
+    text-align: center;
 }
 
 h1 {
@@ -7,12 +8,13 @@ h1 {
 }
 
 .topDiv {
-    background-color: chartreuse; 
+    background-color: rgb(127, 213, 235); 
     margin-top: 0px; 
     margin-left: 0px; 
     margin-right: 0px; 
-    padding: 15px; 
-    
+    padding: 15px;  
+    position: relative; 
+    padding-top: 100px; 
 } 
 
 .middleDiv { 
@@ -28,4 +30,14 @@ h1 {
 } 
 .pro {
     text-decoration: underline;
+} 
+
+.bootomCloud {
+    position: absolute;
+} 
+
+.topCloud {
+    position: absolute; 
+    right: 400px; 
+    top: 100px;
 }
