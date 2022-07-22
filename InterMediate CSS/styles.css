@@ -7,7 +7,13 @@ body {
 h1 {
     margin-top: 0px; 
     font-family: 'Sacramento', cursive;
-    font-size: 50px;
+    font-size: 80px; 
+    margin-bottom: 0%;
+} 
+
+.ddz {
+    font-size: 2rem; 
+    margin-top: 16px;
 }
 
 .topDiv {
@@ -20,16 +26,16 @@ h1 {
     padding-top: 100px; 
 } 
 
-.middleDiv { 
-    background-color: aqua;
+.middle-container { 
+    /* background-color: aqua;
     height: 200px; 
-    width: 200px;
+    width: 200px; */
 } 
 
-.bottomDiv { 
-    background-color: bisque;
+.bottom-container { 
+    /* background-color: bisque;
     height: 200px; 
-    width: 200px;
+    width: 200px; */
 } 
 .pro {
     text-decoration: underline;
