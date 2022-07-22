@@ -41,7 +41,14 @@ a {
     padding: 15px;  
     position: relative; 
     padding-top: 100px; 
-} 
+}  
+
+.skill-row {
+    width: 50%; 
+    margin: 100px auto 100px auto; 
+    text-align: left; 
+    line-height: 2;
+}
 
 .middle-container { 
     /* background-color: aqua;
@@ -66,4 +73,15 @@ a {
     position: absolute; 
     right: 400px; 
     top: 100px;
+} 
+
+.t2g {
+    width: 25%; 
+    float: left; 
+    margin-right: 30px;
+} 
+.eat { 
+    width: 25%;
+    float: right; 
+    margin-left: 30px;
 }
