@@ -50,17 +50,17 @@ a {
     line-height: 2;
 }
 
-.middle-container { 
+/* .middle-container { 
     /* background-color: aqua;
     height: 200px; 
     width: 200px; */
-} 
+  
 
-.bottom-container { 
+/*.bottom-container { 
     /* background-color: bisque;
     height: 200px; 
     width: 200px; */
-} 
+ 
 .pro {
     text-decoration: underline;
 } 
