@@ -19,4 +19,52 @@ some practice from codply
         <a class = 'nav-link active' href ="">Contacts</a>
     </li>
 </ul> 
-</div>
+</div> 
+
+
+
+    <div class="row">
+        <div class="col-6" style = "background-color:blue; border: 2px solid;">
+            lol
+        </div>
+        <div class="col-2" style = "background-color:red; border: 1px solid;">
+            lol
+        </div> 
+        <div class="col-4" style = "background-color:green; border: 1px solid;">
+            lol
+        </div>
+    </div> 
+    
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6" style = "background-color:yellow; border: 2px solid;">
+            bla bla
+        </div> 
+        <div class="col-lg-3 col-md-4 col-sm-6" style = "background-color:yellow; border: 2px solid;">
+            bla bla
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6" style = "background-color:yellow; border: 2px solid;">
+            bla bla
+        </div> 
+        </div>
+        
+    <div class = "row"> 
+        <div class="col-lg-2 col-md-3 col-sm-12" style = "background-color:violet; border: 2px solid;">
+            bla bla
+        </div> 
+        <div class="col-lg-2 col-md-3 col-sm-12" style = "background-color:violet; border: 2px solid;">
+            bla bla
+        </div> 
+        <div class="col-lg-2 col-md-3 col-sm-12" style = "background-color:violet; border: 2px solid;">
+            bla bla
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-12" style = "background-color:violet; border: 2px solid;">
+            bla bla
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-12" style = "background-color:violet; border: 2px solid;">
+            bla bla
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-12" style = "background-color:violet; border: 2px solid;">
+            bla bla
+        </div>
+        
+    </div>
