@@ -22,7 +22,7 @@ h2 {
 } 
 
 h2:hover {
-    color: hsl(170, 23%, 95%);
+    color: goldenrod;
 }
 
 p {
@@ -63,13 +63,17 @@ p {
 /* Title image */ 
 
 .title-image {
-    width: 58%; 
-    transform: rotate(30deg);
+    width: 15%; 
+    transform: rotate(30deg); 
+    position: absolute;
 } 
 
 /* Features - Section */
 #features {
-    padding: 7% 15%;
+    padding: 7% 15%; 
+    background-color: azure; 
+    position: relative; 
+    z-index: 1;
 } 
 
 .features {
@@ -115,4 +119,11 @@ p {
 
 .pressImage:hover {
     background-color: aliceblue;
+} 
+
+/* Pricing Section */ 
+
+#pricing {
+    padding: 5%; 
+    text-align: center;
 }
