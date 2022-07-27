@@ -1,16 +1,5 @@
 body {
     font-family: "Montserrat";
-}
-
-#title {
-    background-color: #ff4c68; 
-    color: white; 
-} 
-
-.meetDogs {
-    font-family: 'Montserrat' bold sans-serif;
-    font-size: 3.5rem; 
-    line-height: 1.5;
 } 
 
 h3 {
@@ -28,6 +17,17 @@ h2:hover {
 p {
     color: gray;
 }
+
+#title {
+    background-color: #ff4c68; 
+    color: white; 
+} 
+
+.meetDogs {
+    font-family: 'Montserrat' bold sans-serif;
+    font-size: 3.5rem; 
+    line-height: 1.5;
+} 
 
 .container-fluid {
     padding: 3% 15%;
