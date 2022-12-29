@@ -13,5 +13,15 @@ function dice() {
 
     pic1.setAttribute('src', artribute1);
     pic2.setAttribute('src', artribute2);
+    
+    setTimeout(() => {
+        if (Math.ceil(num1) > Math.ceil(num2)) {
+            window.alert('Player1 is winner!');
+        } else if (Math.ceil(num1) < Math.ceil(num2)) {
+            window.alert('Player2 is winner!');
+        } else {
+            window.alert('Whooa JACKPOT BOTH PLAYERS ARE WINNERS!!!')
+        }
+    }, 300);
 }
 
