@@ -1,7 +1,7 @@
 //const buttonsArray = document.querySelectorAll('button.drum');
 //buttonsArray.forEach((b) => b.addEventListener('click', playSound));
 
-window.addEventListener('keydown', playSound);
+document.addEventListener('keydown', playSound);
 
 function playSound(event) {
     const soundsObject = {
@@ -15,9 +15,18 @@ function playSound(event) {
     }
 
     const letter = event.key;
+
     if (soundsObject.hasOwnProperty(letter)) {
         const mySound = new Audio(`./sounds/${soundsObject[letter]}.mp3`);
+        
+        const pressedButton = document.querySelector('button.' + letter);
+        pressedButton.classList.add('pressed');
+        
         mySound.play();
+        
+        setTimeout(() => {
+            pressedButton.classList.remove('pressed');
+        }, 60);
     }
 }
 
